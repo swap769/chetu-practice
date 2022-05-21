@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  /* font-size: 1rem; */
 }
 
 .img_logo {
@@ -40,12 +39,14 @@ nav ul li a {
   color: rgb(3, 3, 3);
   font-weight: 300;
 }
+
 .card_container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 0 2rem;
   margin: 0;
 }
+
 .card {
   background-color: white;
   border-radius: 0.5rem;
@@ -58,6 +59,7 @@ nav ul li a {
 .card_img {
   width: 60%;
 }
+
 .about_img {
   width: 75%;
 }
@@ -69,24 +71,51 @@ nav ul li a {
 .middle_container {
   display: flex;
   flex-direction: row;
-  margin: 2rem auto;
+  margin: 5rem auto;
 }
 
 .about_img_div {
   text-align: center;
 }
+
 .carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  align-items: center;
+  text-align: center;
   background-image: url(./images/carousel1.jpg);
   height: 100vh;
 }
 
+.right_div_content p h1 {
+  font-weight: normal;
+}
+
+button {
+  background-color: #1da6da;
+  color: white;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+.middle_child_div {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+}
+.middle_child_div p {
+  padding: 1rem;
+}
 .middle_p {
   padding: 5px;
   background-color: rgb(87, 193, 229);
 }
 
-
-/*----------------------------------- media query */
+/*----------------------------------- media query ------------------------- */
 
 @media (max-width: 768px) {
   .img_logo {
@@ -109,6 +138,25 @@ nav ul li a {
     grid-template-columns: auto auto;
     padding: 0 1rem;
     margin: 0;
+  }
+  .middle_container {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .right_div_content {
+    padding: 1rem;
+    justify-content: center;
+  }
+  .middle_child_div {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle_child_div p {
+    padding: 0.5rem;
   }
 }
 
