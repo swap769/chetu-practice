@@ -61,7 +61,7 @@ nav ul li a {
 }
 
 .about_img {
-  width: 75%;
+  width: 70%;
 }
 
 .col-6 {
@@ -100,6 +100,7 @@ button {
   font-weight: 300;
   padding: 1rem 2rem;
   border: none;
+   margin: 1rem auto;
 }
 
 .middle_child_div {
@@ -107,14 +108,24 @@ button {
   display: flex;
   flex-direction: row;
 }
-.middle_child_div p {
-  padding: 1rem;
+.middle_child_div p,
+.right_div_content h1 {
+  margin: 1rem auto;
 }
-.middle_p {
-  padding: 5px;
-  background-color: rgb(87, 193, 229);
+.para {
+  color: #1da6da;
+  margin: 1rem auto;
 }
 
+.middle_p {
+  padding: 5px;
+  background-color: #1da6da;
+}
+.middle_child_div i {
+  color: #1da6da;
+  margin: 0 0.5rem;
+  font-size: 20px;
+}
 /*----------------------------------- media query ------------------------- */
 
 @media (max-width: 768px) {
