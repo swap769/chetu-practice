@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  background-color: rgb(255, 228, 196);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 2px;
+}
+.call i {
+  color: rgb(112, 111, 111);
+}
+
+.logo h2 {
+  color: rgb(228, 81, 32);
+  text-align: center;
+}
+
+.logo {
+  width: 33.33%;
+}
+
+.icon {
+  width: 33.33%;
+  text-align: right;
+}
+
+.call {
+  width: 33.33%;
+}
+
+.icon a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 8px;
+  color: rgb(112, 111, 111);
+  position: relative;
+}
+
+.icon span {
+  background-color: black;
+  color: white;
+  top: -13px;
+  right: -10px;
+  position: absolute;
+  display: inline-block;
+  width: 15px;
+  text-align: center;
+  font-size: 10px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0px 10px;
+  color: black;
+}
+
+.row-1 {
+  display: flex;
+}
+
+.col-4 {
+  width: 33.33%;
+  padding: 10px;
+}
+
+.card {
+  background: url("./WhatsApp\ Image\ 2022-05-25\ at\ 4.20.09\ PM.jpeg");
+  height: 500px;
+  text-align: center;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card h3,
+p {
+  margin: 15px 0;
+}
+.card-body button {
+  color: white;
+  background-color: rgb(138, 211, 12);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
